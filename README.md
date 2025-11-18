@@ -4,13 +4,13 @@ This project is a Mini To-Do List Application built with HTML, CSS, and JavaScri
 
 # Features
 
-Add Task: Users can type a new task in the input field and either click the “Add a Task” button or press the Enter key to insert it into the list.
+**Add Task**: Users can type a new task in the input field and either click the “Add a Task” button or press the Enter key to insert it into the list.
 
-Close Individual Task: Each task includes a styled “X” button, allowing users to remove tasks one by one.
+**Close Individual Task**: Each task includes a styled “X” button, allowing users to remove tasks one by one.
 
-Reset List: A dedicated “Reset” button clears all tasks while keeping the main interface intact.
+**Reset List**: A dedicated “Reset” button clears all tasks while keeping the main interface intact.
 
-Keyboard Support: The app supports keyboard interaction, letting users quickly add tasks using the Enter key, making task entry fast and convenient.
+**Keyboard Support**: The app supports keyboard interaction, letting users quickly add tasks using the Enter key, making task entry fast and convenient.
 
 # Modern Design & UX
 
