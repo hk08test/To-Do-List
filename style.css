@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 70%, #2575fc 100%);
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5em;
+    color:whitesmoke;
+}
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    color:white;
+}
+.header h3 {
+    padding: 10px;
+    font-size: 1.8em;
+}
+
+.to-do {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 600px;
+    
+    width: 90vw;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #ff9a8b 0%, #ff6a88 100%);
+
+}
+
+div h3 {
+    font-size: 1.5em;
+}
+
+#new-label {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 1.2em;
+    color:azure;
+    margin: 15px;
+}
+
+#new {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: 0.5px solid black;
+    padding: 2px 5px;
+}
+
+#add ,#reset {
+    flex-grow: 1;
+    padding: 12px 20px;
+    min-width: 120px;
+    width: 100%;
+    max-width: 180px;
+    flex: 1 1 120px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+    color:aliceblue;
+    transition: transform 0.3s ease;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#add:hover, #reset:hover {
+    transform: scale(1.1);
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+#tasks {
+    max-width: 80%;
+    width: 90vw;
+    margin: 10px auto;
+    padding: 2px;
+    border-radius: 15px;
+    background: #f0f4ff;       /* couleur douce */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#tasks h3 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #2575fc;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #68a8ff;
+    color: white;
+    font-size: 1.1em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.task button.close {
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.task button.close:hover {
+    color: #ff4f4f;
+}
+
+#add {
+    background-color: #4CAF50;
+}
+
+#add:hover {
+    background-color: #43A047;
+}
+
+#reset {
+    background-color: #E53935;
+}
+
+#reset:hover{
+    background-color: #d32f2f;
+}
